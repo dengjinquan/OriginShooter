@@ -12,7 +12,9 @@ public class OriginShooter : ModuleRules
 
         PublicIncludePaths.AddRange(
             new string[]{
-                "OriginShooter/Public/Gameplay"
+                "OriginShooter/Public/GameFrame/GameMode",
+                "OriginShooter/Public/GameFrame/Character",
+                "OriginShooter/Public/GameFrame/Controller/PlayerController"
             });
     }
 }
